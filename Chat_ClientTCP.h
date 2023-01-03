@@ -1,5 +1,4 @@
 #pragma once
-#pragma once
 
 #include<iostream>
 #include<unistd.h>
@@ -7,8 +6,8 @@
 #include<sys/socket.h>
 #include <arpa/inet.h>
 
-#define MESSAGE_LENGTH 1024 // Максимальный размер буфера для данных
-#define PORT 7777 // Будем использовать этот номер порта
+#define MESSAGE_LENGTH 1024 // ГЊГ ГЄГ±ГЁГ¬Г Г«ГјГ­Г»Г© Г°Г Г§Г¬ГҐГ° ГЎГіГґГҐГ°Г  Г¤Г«Гї Г¤Г Г­Г­Г»Гµ
+#define PORT 7777 // ГЃГіГ¤ГҐГ¬ ГЁГ±ГЇГ®Г«ГјГ§Г®ГўГ ГІГј ГЅГІГ®ГІ Г­Г®Г¬ГҐГ° ГЇГ®Г°ГІГ 
 
 class Chat_ClientTCP
 {
